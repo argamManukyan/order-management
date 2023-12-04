@@ -1,0 +1,5 @@
+.coverage
+htmlcov
+venv/
+.idea/
+.env
