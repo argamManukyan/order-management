@@ -74,11 +74,6 @@ class Customer(BaseModel):
 
         return actions_facade.get(value, None)
 
-    def todo(self):
-        """Here is commented upcoming integrations and features for this model"""
-
-        # 1. Make a method to get order list or a service
-
     @staticmethod
     async def __mail_sender(code: str, recipients: list):
         loop = asyncio.get_event_loop()
